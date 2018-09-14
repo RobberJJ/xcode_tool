@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<-- Title -->
+        <key>IDECodeSnippetTitle</key>
+        <string>My Code Snippet</string>
+
+	<-- Summary -->
+        <key>IDECodeSnippetSummary</key>
+        <string>sunmmary</string>
+
+	<-- Completion Shortcut -->
+        <key>IDECodeSnippetCompletionPrefix</key>
+        <string>short cut</string>
+
+	<-- Contents -->
+        <key>IDECodeSnippetContents</key>
+        <string>- (void)addGesture {
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapHandle:)];
+    [self.view addGestureRecognizer:tap];
+    12345
+}</string>
+
+	<-- Platform -->
+
+	<-- Language -->
+        <key>IDECodeSnippetLanguage</key>
+        <string>Xcode.SourceCodeLanguage.Objective-C</string>
+
+	<-- Completion Scopes : 
+		All,
+		ClassImplementation,
+		CodeExpression,
+		Preprocessor,
+		ClassInterfaceVariables,
+		TopLevel,
+  		ClassInterfaceMethods,
+		CodeBlock,
+		StringOrComment
+	-->
+        <key>IDECodeSnippetCompletionScopes</key>
+        <array>
+                <string>All</string>
+        </array>
+
+	<-- Identifier -->
+        <key>IDECodeSnippetIdentifier</key>
+        <string>DBD31A87-5150-4D2F-A086-6709EA4F0655</string>
+
+	<-- is user cnippet -->
+        <key>IDECodeSnippetUserSnippet</key>
+        <true/>
+	
+	<-- Version -->
+        <key>IDECodeSnippetVersion</key>
+        <integer>0</integer>
+</dict>
+</plist>
