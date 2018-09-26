@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RoUILabelInitSimple</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel * &lt;# var #&gt;Lbl = [[UILabel alloc] initWithFrame:CGRectMake(&lt;#CGFloat x#&gt;, &lt;#CGFloat y#&gt;, &lt;#CGFloat width#&gt;, &lt;#CGFloat height#&gt;)];
+    &lt;# var #&gt;Lbl.font = &lt;# UIFont #&gt;;
+    &lt;# var #&gt;Lbl.textColor = &lt;# UIColor #&gt;
+    &lt;# var #&gt;Lbl.textAlignment = &lt;# NSTextAlignment #&gt;
+    &lt;# var #&gt;Lbl.text = &lt;# NSString #&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F854C5E2-ECC5-40E7-B27A-6A04C2D56A10</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>New a UILabel object by simple.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Ro: New a UILabel object by simple property.</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

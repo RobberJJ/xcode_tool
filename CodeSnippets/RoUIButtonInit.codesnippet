@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Title -->
+        <key>IDECodeSnippetTitle</key>
+        <string>Ro: New a UIButton object.</string>
+
+	<!-- Summary -->
+        <key>IDECodeSnippetSummary</key>
+        <string>New a UIButton object.</string>
+
+	<!-- Completion Shortcut -->
+        <key>IDECodeSnippetCompletionPrefix</key>
+        <string>RoUIButtonInit</string>
+
+	<!-- Contents 
+		Notice: <(&lt;) >(&gt;) &(&amp;) '(&apos;) "(&quot;)
+		&lt;# Class Name #&gt;
+	-->
+        <key>IDECodeSnippetContents</key>
+        <string>UIButton * &lg;# Name #&gt;Btn = [UIButton  buttonWithType:UIButtonTypeCustom];
+    &lg;# Name #&gt;Btn.frame = CGRectMake(&lg;##CGFloat x#&gt;, &lg;##CGFloat y#&gt;, &lg;##CGFloat width#&gt;, &lg;##CGFloat height#&gt;);
+    [&lg;# Name #&gt;Btn setTitleColor:&lg;##(nullable UIColor *)#&gt; forState:&lg;##(UIControlState)#&gt;];
+    [&lg;# Name #&gt;Btn setBackgroundColor:&lg;##(UIColor * _Nullable)#&gt;];
+    [&lg;# Name #&gt;Btn.titleLabel setFont:&lg;##(UIFont * _Nullable)#&gt;];
+    [&lg;# Name #&gt;Btn setTitle:&lg;##(nullable NSString *)#&gt; forState:&lg;##(UIControlState)#&gt;];
+    [&lg;# Name #&gt;Btn addTarget:self action:@selector(&lg;# Name #&gt;BtnHandle:) forControlEvents:UIControlEventTouchUpInside];</string>
+
+	<!-- Platform -->
+
+	<!-- Language -->
+        <key>IDECodeSnippetLanguage</key>
+        <string>Xcode.SourceCodeLanguage.Objective-C</string>
+
+	<!-- Completion Scopes : 
+		All,
+		ClassImplementation,
+		CodeExpression,
+		Preprocessor,
+		ClassInterfaceVariables,
+		TopLevel,
+  		ClassInterfaceMethods,
+		CodeBlock,
+		StringOrComment 
+	-->
+        <key>IDECodeSnippetCompletionScopes</key>
+        <array>
+                <string>All</string>
+        </array>
+
+	<!-- Identifier -->
+        <key>IDECodeSnippetIdentifier</key>
+        <string>B19FB623-43B4-4392-BB7C-A2337732DB52</string>
+
+	<!-- is user cnippet -->
+        <key>IDECodeSnippetUserSnippet</key>
+        <true/>
+	
+	<!-- Version -->
+        <key>IDECodeSnippetVersion</key>
+        <integer>0</integer>
+</dict>
+</plist>
